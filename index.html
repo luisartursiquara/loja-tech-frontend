@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>tech store</title>
+</head>
+<body>
+    <header>
+        <h1>Tech store</h1>
+        <nav>
+            <a href="#produtos">Produtos</a>
+            <a href="#carrinho">Carrinho</a>
+            <a href="#pedidos">Meus pedidos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bem vindo a tech store</h2>
+            <p>Encontra seus produtos prefeidos</p>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <input type="text" id="pesquisa" placeholder="Pesquisar produto...">
+            <div id="lista-produtos">
+
+            </div>
+        </section>
+        <section id="carrinho">
+            <h2>
+                Carrinho
+            </h2>
+            <div id="lista-carrinho">
+                <p>o carrinho esta vazio</p>
+            </div>
+            <p>
+                <strong>Total: </strong>
+                <span id="total-carrinho">0.00</span>€
+            </p>
+            <button id="finalizar-compra">Finalizar compra</button>
+        </section>
+        <section id="pedidos">
+            <h2>Meus pedidos</h2>
+            <div id="lista-pedidos">
+                <p>Ainda nao existem pedidos</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto tech-store</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
