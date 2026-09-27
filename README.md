@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O TechStore é uma aplicação web de uma loja online desenvolvida como projeto académico.
+O TechStore é uma aplicação web de uma loja online desenvolvida como projeto académico para um dos projetos de MVP do curso de desenvolvimento full-stack da PUC-RIO
 
 O Front-End permite visualizar produtos obtidos através de uma API externa, pesquisar produtos, adicionar produtos ao carrinho, alterar quantidades e finalizar compras.
 
