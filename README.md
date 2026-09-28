@@ -36,6 +36,8 @@ A FakeStore API fornece os produtos apresentados na loja.
 
 A TechStore API é responsável pela criação, consulta, atualização e eliminação dos pedidos.
 
+![Arquitetura do TechStore](images/arquitetura-techstore.png)
+
 ## API externa
 
 O projeto utiliza a FakeStore API para obter os produtos da loja.
